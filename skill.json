@@ -1,0 +1,35 @@
+{
+  "name": "genpark-repository-wide-ast-codebase-migration-refactorer-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Repository-wide codebase migration agent & AST modernization refactorer.",
+  "author": "genpark",
+  "category": "developer",
+  "tags": [
+    "ast-refactor",
+    "codebase-migration",
+    "fleet-modernization",
+    "repo-wide-agent",
+    "ph-august-dev"
+  ],
+  "inputs": {
+    "migration_rule": {
+      "type": "string"
+    },
+    "target_file_pattern": {
+      "type": "string"
+    }
+  },
+  "outputs": {
+    "files_modified_count": {
+      "type": "integer"
+    },
+    "ast_transforms_applied": {
+      "type": "integer"
+    },
+    "migration_status": {
+      "type": "string"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
